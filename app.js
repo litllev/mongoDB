@@ -3,7 +3,7 @@ const express = require('express')
 app = express()
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://root:root@teste.yz7hkqq.mongodb.net/?retryWrites=true&w=majority&appName=teste');
+mongoose.connect('mongodb+srv://@@@@.yz7hkqq.mongodb.net/?retryWrites=true&w=majority&appName=teste');
 
 
 app.use(express.json())
